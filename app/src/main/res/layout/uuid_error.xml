@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/online_error_btn_retry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/booher"
+
+        android:clickable="true"
+        android:gravity="center" >
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:text="未获取uuid"
+                android:textSize="@dimen/dp_30"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
